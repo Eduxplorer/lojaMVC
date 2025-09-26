@@ -1,8 +1,39 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@using System.Collections.Generic;
+@model List<LojaMvc.Models.ProdutoModel>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<h2>Lista de Produtos</h2>
+
+<table>
+    @* Cabeçalho da tabela *@
+    <tr>
+        <th>ID</th>
+        <th>Nome</th>
+        <th>Preço</th>
+    </tr>
+
+    @foreach(var produto in Model){
+    <tr>
+        <td>@produto.Id</td>
+        <td>@produto.Nome</td>
+        <td>@produto.Preco</td>
+        <td><a href="">Ver</a></td>
+   </tr>
+    }
+
+    @* Primeira linha *@
+    <tr>
+        <td>1</td>
+        <td>Produto 1</td>
+        <td>99,99</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Produto 2</td>
+        <td>99,99</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Produto 3</td>
+        <td>99,99</td>
+    </tr>
+</table>

@@ -1,4 +1,7 @@
-<h2></h2>
+@using System.Collections.Generic;
+@model List<LojaMvc.Models.ProdutoModel>
+
+<h2>Lista de Produtos</h2>
 
 <table>
     @* Cabeçalho da tabela *@
@@ -7,6 +10,15 @@
         <th>Nome</th>
         <th>Preço</th>
     </tr>
+
+    @foreach(var produto in Model){
+    <tr>
+        <td>@produto.Id</td>
+        <td>@produto.Nome</td>
+        <td>@produto.Preco.ToString()</td>
+        <td><a href="">Ver</a></td>
+   </tr>
+    }
 
     @* Primeira linha *@
     <tr>

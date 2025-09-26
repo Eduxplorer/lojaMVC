@@ -94,3 +94,4 @@ C:\Users\eduardo.ssilva77\OneDrive - SENAC - SP\Documentos\Desenvolvimento Web\B
 C:\Users\eduardo.ssilva77\OneDrive - SENAC - SP\Documentos\Desenvolvimento Web\Back-End\Aulas Backend C#\AULA-1\lojaMVC\obj\Debug\net9.0\lojaMVC.pdb
 C:\Users\eduardo.ssilva77\OneDrive - SENAC - SP\Documentos\Desenvolvimento Web\Back-End\Aulas Backend C#\AULA-1\lojaMVC\obj\Debug\net9.0\lojaMVC.genruntimeconfig.cache
 C:\Users\eduardo.ssilva77\OneDrive - SENAC - SP\Documentos\Desenvolvimento Web\Back-End\Aulas Backend C#\AULA-1\lojaMVC\obj\Debug\net9.0\ref\lojaMVC.dll
+C:\Users\eduardo.ssilva77\OneDrive - SENAC - SP\Documentos\Desenvolvimento Web\Back-End\Aulas Backend C#\AULA-1\lojaMVC\obj\Debug\net9.0\lojaMVC.sourcelink.json
